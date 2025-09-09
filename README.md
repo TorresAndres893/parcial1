@@ -45,6 +45,7 @@ Escriba un programa en ANTLR que pueda calcular los primeros `n` términos de la
 **Comandos de ejecución:**
 
 ```bash
+antlr4 -no-listener -visitor Grama.g4  
 antlr4 Grama.g4
 javac Grama*.java EvalVisitor.java Euler.java
 java Euler
